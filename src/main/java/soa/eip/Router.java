@@ -3,6 +3,8 @@ package soa.eip;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -39,6 +41,19 @@ public class Router extends RouteBuilder {
         .end()
         .log("Searching modified twitter for \"${body}\"!")
         .toD("twitter-search:${body}")
-        .log("Body now contains the response from twitter:\n${body}");
+        .log("Body now contains the response from twitter:\n${body}")
+        .process(exchange -> {
+            // The processing of converting a list of objects to an entry <key, value>
+            // where value is a list of objects is needed for mustache to process it correctly.
+            // This processing could be changed by the split and aggregate EIP together but due to
+            // time constraints has been implemented as a java function.
+            Object payload = exchange.getIn().getBody(Object.class);
+            Map<String, Object> object = new HashMap<>();
+            object.put("ListStatus", payload);
+            exchange.getIn().setBody(object);
+        })
+        .log("Body after processing\n${body}")
+        .to("mustache:template.mustache")
+        .log("Body now contains the html from mustache:\n${body}");
     }
 }

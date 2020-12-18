@@ -21,26 +21,6 @@
     <script
             src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"
             th:src="@{/webjars/bootstrap/dist/js/bootstrap.min.js}"></script>
-    <script
-            src="https://maxcdn.bootstrapcdn.com/mustachejs/0.8.2/mustache.js"
-            th:src="@{/webjars/mustache.js/mustache.js}"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script id="template" type="x-tmpl-mustache">
-{{#.}}
- <div class="row panel panel-default">
-  <div class="panel-heading">
-   <a href="https://twitter.com/{{user.screenName}}" target="_blank"><b>@{{user.screenName}}</b></a>
-   <div class="pull-right">
-    Followers count: {{user.followersCount}}
-   </div>
-  </div>
-  <div class="panel-body">{{text}}</div>
- </div>
- {{/.}}
-
-
-    </script>
 
     <script src="../static/functions.js" th:src="@{/functions.js}"></script>
 
