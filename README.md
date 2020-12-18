@@ -63,3 +63,4 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | 758635 | [Daniel Huici Meseguer](https://github.com/Kifixo) |[Kifixo/lab5-soa](https://github.com/Kifixo/lab5-soa/tree/test)     | Throttle the route to avoid be banned by Twitter  | :gift: | 
 | 756308 | [Eduardo Ruiz](https://github.com/eduardoRuizC) |[eduardoRuizC/lab5-soa](https://github.com/eduardoRuizC/lab5-soa/tree/test)     |        | 
 | 758807 | [Jorge Garcia](https://github.com/jgarciapueyo) |[jgarciapueyo/lab5-soa](https://github.com/jgarciapueyo/lab5-soa/tree/test) | Enrich the response with moustache | | 
+| 737791 | [Alejandro Omist](https://github.com/oumist) |[oumist/lab5-soa](https://github.com/oumist/lab5-soa/tree/test)     |        | 
