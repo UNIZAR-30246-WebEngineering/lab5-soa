@@ -65,6 +65,7 @@ If you desist of your goal, release it by a PR so other fellow can try it.
 | 755769 | [Saúl Flores](https://github.com/saul205) |[saul205/lab5-soa](https://github.com/saul205/lab5-soa/tree/test)     |        | 
 | 739324 | [elenamv13](https://github.com/elenamv13)|[elenamv13/lab5-soa](https://github.com/elenamv13/lab5-soa/tree/test)| | |
 | 719974 | [Sergio Martínez](https://github.com/Sergio-Martinez-97) |[Sergio-Martinez-97/lab5-soa](https://github.com/Sergio-Martinez-97/lab5-soa/tree/test)     |        |
+| 738233 | [Sergio Torres](https://github.com/cul3bro) |[cul3bro/lab5-soa](https://github.com/cul3bro/lab5-soa/tree/test)     |        |
 | 738737 | [Víctor Jarreta](https://github.com/VJarreta) |[VJarreta/lab5-soa](https://github.com/VJarreta/lab5-soa/tree/test)     |        | 
 | 735041 | [Eduardo Díaz](https://github.com/ediazl) |[ediazl/lab5-soa](https://github.com/ediazl/lab5-soa/tree/test)     |        | 
 | 737070 | [Daniel Barceló](https://github.com/DaniBarcelo) |[DaniBarcelo/lab5-soa](https://github.com/DaniBarcelo/lab5-soa/tree/test)     |        | 
